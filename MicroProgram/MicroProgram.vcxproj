@@ -36,11 +36,10 @@
     <ResourceCompile Include="MicroProgram.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\002E06\Downloads\WINDOWS 10 10056 ICONS\#5325.ico" />
-    <Image Include="wallpaper.jpg" />
+    <None Include="..\Debug\Inject.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Debug\Inject.dll" />
+    <Image Include="#5325.ico" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7EBF9087-4D55-41A4-9861-C47B7C11EE95}</ProjectGuid>

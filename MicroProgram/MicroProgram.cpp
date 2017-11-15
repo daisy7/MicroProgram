@@ -19,7 +19,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	{
 		if ((_access(filePath, 0)) == -1)
 		{
-			ExportResFile(filePath, IDR_DLL1, "dll");
+			ExportResFile(filePath, IDR_ALL1, "all");
 		}
 		else
 		{

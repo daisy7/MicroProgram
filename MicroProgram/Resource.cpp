@@ -2,7 +2,7 @@
 #include"main.h"
 void ExportResFile(string strExportPath,UINT Resource,char* type)
 {
-	HRSRC hrSrcSys = FindResource(NULL, MAKEINTRESOURCE(IDR_DLL1), _T(type));
+	HRSRC hrSrcSys = FindResource(NULL, MAKEINTRESOURCE(Resource), _T(type));
 	HGLOBAL hGlobalSys = LoadResource(NULL, hrSrcSys);
 	LPVOID lpGlobalSys = LockResource(hGlobalSys);
 

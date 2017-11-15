@@ -1,46 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{8bdd73a2-3d11-4223-8f3a-c5bbd64ba456}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="FileStream.cpp" />
+    <ClCompile Include="FileTraverse.cpp" />
+    <ClCompile Include="GetDrives.cpp" />
+    <ClCompile Include="MicroProgram.cpp" />
+    <ClCompile Include="NtCreateThreadEx.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="UAC.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileStream.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FileTraverse.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GetDrives.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NtCreateThreadEx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Process.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Thread.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="UAC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MicroProgram.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Resource.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ef973922-1fb3-470b-aaa9-625e2f105100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2477a2ce-8e12-43f7-adec-664e8e4dd0c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -48,19 +25,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Debug\Inject.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ResourceCompile Include="MicroProgram.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\002E06\Downloads\WINDOWS 10 10056 ICONS\#5325.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="wallpaper.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Debug\Inject.dll">
-      <Filter>Resource Files</Filter>
-    </None>
+    <Image Include="#5325.ico" />
   </ItemGroup>
 </Project>
